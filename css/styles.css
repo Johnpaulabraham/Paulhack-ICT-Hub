@@ -70,9 +70,11 @@ h1{
 }
 
 #showcase{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3)70%, rgba(0,0,0,0.3)90%), url(showcase.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3)70%, rgba(0,0,0,0.3)90%), url(../images/background.jpg);
     width: 100%;
-    height: 500px;
+    height: 700px;
+    background-position: center;
+    /* object-fit: cover; */
 }
 
 .show-div {
